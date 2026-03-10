@@ -125,7 +125,7 @@ tab1, tab2 = st.tabs(["📊 Power BI Dashboard", "📈 SQL Query Analysis"])
 # TAB 1 — POWER BI
 # =================================================
 with tab1:
-    st.subheader("📊 Interactive Power BI Dashboard")
+    st.subheader("📊 Power BI Dashboard")
     powerbi_url = os.getenv("POWERBI_EMBED_URL")
 
     st.components.v1.iframe(
